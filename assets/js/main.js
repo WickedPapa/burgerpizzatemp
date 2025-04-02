@@ -280,7 +280,7 @@
         const isoContainer = document.querySelector('.isotope-container');
         if (isoContainer && Isotope.data(isoContainer)) {
           Isotope.data(isoContainer).reloadItems();
-          Isotope.data(isoContainer).layout();
+          Isotope.data(isoContainer).arrange();
         }
       })
       .catch(() => {
