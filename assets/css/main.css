@@ -1669,3 +1669,34 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/*--------------------------------------------------------------
+# Whatsapp icon
+--------------------------------------------------------------*/
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;         /* distanza dal fondo */
+  left: 20px;           /* distanza dal lato sinistro */
+  background-color: #25d366; /* classico verde WhatsApp */
+  color: #fff;
+  border-radius: 50%;   /* pulsante circolare */
+  text-align: center;
+  font-size: 28px;      /* dimensione icona */
+  width: 60px;          /* larghezza pulsante */
+  height: 60px;         /* altezza pulsante */
+  display: flex;        /* per centrare l’icona dentro */
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  z-index: 9999;        /* in modo che sia sempre sopra ad altri elementi */
+  text-decoration: none;/* rimuove underline */
+}
+
+.whatsapp-float:hover {
+  background-color: #128c7e;
+}
+
+.whatsapp-icon {
+  font-size: 1em; /* puoi variare se vuoi un'icona più grande o più piccola */
+}
