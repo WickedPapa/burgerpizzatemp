@@ -270,9 +270,11 @@
               */
             } else {
               container.innerHTML += `<div class="col-lg-6 menu-item isotope-item filter-${cat.toLowerCase()}"><div class="empty-category">Nessun prodotto</div></div>`;
+              console.error("Nessun prodotto")
             }
           } else {
             container.innerHTML += `<div class="col-lg-6 menu-item isotope-item filter-${cat.toLowerCase()}"><div class="empty-category">Categoria non trovata</div></div>`;
+            console.error("Categoria " + cat.toLowerCase() + " non trovata")
           }
         });
 
@@ -288,6 +290,7 @@
         container.innerHTML = '';
         CATEGORIES.forEach(cat => {
           container.innerHTML += `<div class="col-lg-6 menu-item isotope-item filter-${cat.toLowerCase()}"><div class="empty-category">File Excel non trovato</div></div>`;
+          console.error("File Excel dei prodotti non trovato")
         });
       });
   }
