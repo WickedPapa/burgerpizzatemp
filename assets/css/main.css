@@ -1670,6 +1670,14 @@ section,
   /* Add your styles here */
 }
 
+.specials .img-fluid {
+  height: 300px;           /* imposta l’altezza desiderata */
+  object-fit: cover;       /* taglia l’immagine per riempire lo spazio */
+  width: 100%;             /* assicura che l'immagine riempia orizzontalmente */
+  border-radius: 10px;     /* opzionale, per arrotondare */
+}
+
+
 /*--------------------------------------------------------------
 # Whatsapp icon
 --------------------------------------------------------------*/
