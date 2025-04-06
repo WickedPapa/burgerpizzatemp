@@ -255,7 +255,7 @@
 
         CATEGORIES.forEach(cat => {
           if (wb.SheetNames.includes(cat)) {
-            const rows = XLSX.utils.sheet_to_json(wb.Sheets[cat], { header: 1 });
+            const rows = XLSX.utils.sheet_to_json(wb.Sheets[cat], { header: 1, blankrows: false });
             rows.shift(); // rimuovi intestazione
             if (rows.length > 0) {
               rows.forEach(row => {
