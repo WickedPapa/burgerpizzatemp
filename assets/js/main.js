@@ -10,7 +10,7 @@
  * BurgerPizza - main.js
  * (c) 2025 BurgerPizza
  * Released under MIT License
- * See README.md for details
+ * See LICENSE
  */
 
 (function() {
