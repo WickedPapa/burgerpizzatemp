@@ -6,6 +6,13 @@
 * License: https://bootstrapmade.com/license/
 */
 
+/*!
+ * BurgerPizza - main.js
+ * (c) 2025 BurgerPizza
+ * Released under MIT License
+ * See README.md for details
+ */
+
 (function() {
   "use strict";
 

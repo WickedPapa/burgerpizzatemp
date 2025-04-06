@@ -1,6 +1,15 @@
+# BurgerPizza
+
+Benvenuto/a nel progetto **BurgerPizza**, un sito vetrina che utilizza **HTML, CSS, JS** e alcune risorse di terze parti per presentare l’attività di ristorazione.
+
+## Licenza
+
+Il **codice** (HTML, CSS, JS) originale di questo progetto è distribuito sotto licenza **MIT**.  
+Qui di seguito il testo completo:
+
 MIT License
 
-Copyright (c) 2025 WickedPapa
+Copyright (c) 2025 BurgerPizza
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +28,36 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+-------------------------------------------------------------------------------------------------------------
+
+
+### Importante
+- Le **immagini**, i **loghi** e i **contenuti testuali** (descrizioni, ricette, marchio “BurgerPizza”) **non** sono inclusi nella licenza MIT e rimangono di proprietà del titolare del sito.  
+- Il template “Delicious” di **[BootstrapMade](https://bootstrapmade.com/)** richiede di mantenere il credit `Designed by BootstrapMade` nel footer, secondo i [termini di licenza](https://bootstrapmade.com/license/).
+
+## Risorse di terze parti
+
+Questo progetto fa uso delle seguenti librerie/risorse:
+
+1. **Bootstrap 5** (licenza MIT)  
+   - Sito: [https://getbootstrap.com/](https://getbootstrap.com/)  
+2. **Bootstrap Icons** (licenza MIT)  
+   - Repository: [https://github.com/twbs/icons](https://github.com/twbs/icons)  
+3. **Delicious Template di BootstrapMade**  
+   - Sito: [https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/](https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/)  
+   - Condizioni: mantenere il link `Designed by BootstrapMade`.  
+4. Eventuali altri plugin (es. AOS, Swiper, GLightbox, Isotope), tutti con licenza libera (MIT o simili).  
+
+Consulta la documentazione ufficiale di ciascun progetto per conoscere la licenza e i termini d’uso specifici.
+
+## Contenuti del Sito
+
+- I **brand**, le **immagini** (foto piatti, logo, icone personalizzate) e i **testi** non rientrano nella licenza MIT.  
+- Non è consentito riutilizzare marchi o asset originali senza esplicita autorizzazione del proprietario.
+
+## Note per gli sviluppatori
+
+- Il progetto è pensato come **sito vetrina**, pertanto non include un backend.  
+- Se desideri modificare o riutilizzare il **codice** (HTML/CSS/JS) di base, puoi farlo liberamente nel rispetto della licenza MIT.  
+- Ricorda di lasciare il footer con `Designed by BootstrapMade` se utilizzi il template “Delicious” nella versione gratuita.
