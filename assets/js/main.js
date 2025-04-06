@@ -216,7 +216,7 @@
 
 
   // === MENU DINAMICO DA EXCEL ===
-  const CATEGORIES = ["Antipasti", "Pizze", "Panini", "Bibite", "Dolci"];
+  const CATEGORIES = ["Antipasti", "Impasti", "Pizze", "Hamburger", "Bibite", "Dolci"];
 
   function createMenuItemHTML(category, nome, descrizione, prezzo, immagine) {
     const imageName = immagine && immagine.trim() !== "" ? immagine.trim() : "default.jpg";
